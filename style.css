@@ -36,10 +36,14 @@ body, html{
 }
 #vink {
 	background-image: url(img/check.png);
+	width: 25px;
+	height: 25px;
 }
 #opdracht {
 	font-size: 12pt;
 }
 #verwijder {
 	background-image: url(img/delete.png);
+	height: 25px;
+	width: 25px;
 }
