@@ -1,3 +1,45 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body, html{
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	width: 800px;
+	height: auto;
+	min-height: 250px;
+	background-color: red;
+	margin: 0 auto;
+}
+#header {
+	width: 800px;
+	height: 100px;
+	background-color: green;
+}
+#header p {
+	font-size: 16pt;
+	font-weight: bold;
+	color: #000000;
+}
+#content {
+	width: 800px;
+	height: auto;
+	min-height: 250px;
+	float: left;
+	background-color: blue;
+}
+#item {
+	width: 800px;
+	background-color: lime;
+}
+#vink {
+	background-image: url();
+}
+#opdracht {
+	font-size: 12pt;
+}
+#verwijder {
+	background-image: url();
+}
