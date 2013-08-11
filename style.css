@@ -35,11 +35,11 @@ body, html{
 	background-color: lime;
 }
 #vink {
-	background-image: url();
+	background-image: url(img/check.png);
 }
 #opdracht {
 	font-size: 12pt;
 }
 #verwijder {
-	background-image: url();
+	background-image: url(img/delete.png);
 }
