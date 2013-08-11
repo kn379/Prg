@@ -15,6 +15,7 @@
 					<div id="vink"></div>
 					<div id="opdracht">Website maken</div>
 					<div id="verwijder"></div>
+					<div id="lijn"></div>
 				</div>
 			</div>
 		</div>
