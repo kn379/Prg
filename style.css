@@ -12,33 +12,37 @@ body, html{
 	background-size: cover;
 }
 #container {
-	width: 800px;
+	width: 600px;
 	height: auto;
 	min-height: 250px;
-	background-color: red;
 	margin: 0 auto;
 }
 #header {
-	width: 800px;
-	height: 100px;
-	background-color: green;
+	height: 132px;
+	background-image:url(img/top.png);
+
 }
-#header p {
-	font-size: 16pt;
+#content p {
+	font-size: 20pt;
 	font-weight: bold;
 	color: #000000;
+	font-family: 'Bad Script', cursive;
+	padding-left: 50px;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
 }
 #content {
-	width: 800px;
+	background-image:url(img/mid.png);
+	width: 600px;
 	height: auto;
 	min-height: 250px;
 	float: left;
-	background-color: blue;
 }
 #item {
-	width: 800px;
-	background-color: lime;
+	width: 584px;
 	float: left;
+	margin-left:3px;
+
 }
 #vink {
 	background-image: url(img/check.png);
@@ -48,7 +52,7 @@ body, html{
 	margin: 5px;
 }
 #opdracht {
-	font-size: 12pt;
+	font-size: 8pt;
 	float: left;
 	padding-top: 10px;
 }
@@ -57,7 +61,7 @@ body, html{
 	height: 25px;
 	width: 25px;
 	float: left;
-	margin: 5px 0px 5px 100px;
+	margin: 5px 0px 5px 25px;
 }
 #lijn {
 	width: 100%;
