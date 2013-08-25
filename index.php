@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Naamloos document</title>
+		<title>To Do List</title>
 		<link href="style.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
 	</head>
