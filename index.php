@@ -17,30 +17,27 @@
 
 
 $shop = array( array( Beschrijving => "Website maken", 
-                      Done => ja,
-                      Number => nee 
+                      Done => 0,
                     ),
                array( Beschrijving => "Boodschappen doen", 
-                      Done => ja,
-                      Number => nee,
+                      Done => 1,
                     ),
                array( Beschrijving => "Dieren wassen", 
-                      Done => ja,
-                      Number => nee 
+                      Done => 1,
                     ),
                array( Beschrijving => "Paardenstal schoonmaken en hooien", 
-                      Done => ja,
-                      Number => nee 
+                      Done => 1,
                     )
              );             
 echo "<p>To Do List</p>";
 
 for ($row = 0; $row < 4; $row++)
 {
-	echo "<div id='item'><div id='vink'></div><div id='opdracht'>";
-    echo $shop[$row]["Beschrijving"]." is klaar? ".$shop[$row]["Done"].", ".$shop[$row]["Number"];
-    echo "</div><div id='verwijder'></div> <div id='lijn'></div></div>";
-}
+	echo "<div id='item'>";
+    if ($shop[$row]["Done"] < 1) {echo "<div id='vink'></div>";} else { echo "<div id='verwijder'></div>";}
+    echo "<div id='opdracht'>".$shop[$row]["Beschrijving"];
+	echo "</div> <div id='lijn'></div></div>";
+			}
  ?>
 			</div>
 		</div>
