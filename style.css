@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of a18ccc1... Volledige opmaak aangepast
 @charset "UTF-8";
 /* CSS Document */
 
@@ -13,6 +16,7 @@ body, html{
 	background-size: cover;
 }
 #container {
+<<<<<<< HEAD
 	width: 600px;
 	height: auto;
 	min-height: 250px;
@@ -44,6 +48,35 @@ body, html{
 	float: left;
 	margin-left:3px;
 
+=======
+	width: 800px;
+	height: auto;
+	min-height: 250px;
+	background-color: red;
+	margin: 0 auto;
+}
+#header {
+	width: 800px;
+	height: 100px;
+	background-color: green;
+}
+#header p {
+	font-size: 16pt;
+	font-weight: bold;
+	color: #000000;
+}
+#content {
+	width: 800px;
+	height: auto;
+	min-height: 250px;
+	float: left;
+	background-color: blue;
+}
+#item {
+	width: 800px;
+	background-color: lime;
+	float: left;
+>>>>>>> parent of a18ccc1... Volledige opmaak aangepast
 }
 #vink {
 	background-image: url(img/check.png);
@@ -53,7 +86,11 @@ body, html{
 	margin: 5px;
 }
 #opdracht {
+<<<<<<< HEAD
 	font-size: 8pt;
+=======
+	font-size: 12pt;
+>>>>>>> parent of a18ccc1... Volledige opmaak aangepast
 	float: left;
 	padding-top: 10px;
 }
@@ -62,7 +99,11 @@ body, html{
 	height: 25px;
 	width: 25px;
 	float: left;
+<<<<<<< HEAD
 	margin: 5px;
+=======
+	margin: 5px 0px 5px 100px;
+>>>>>>> parent of a18ccc1... Volledige opmaak aangepast
 }
 #lijn {
 	width: 100%;
@@ -70,6 +111,7 @@ body, html{
 	background-color: #000000;
 	float: left;
 	margin-bottom: 10px;
+<<<<<<< HEAD
 =======
 @charset "UTF-8";
 /* CSS Document */
@@ -143,4 +185,6 @@ body, html{
 	float: left;
 	margin-bottom: 10px;
 >>>>>>> parent of 7995dbc... Vanuit een array de to do items toevoegen.
+=======
+>>>>>>> parent of a18ccc1... Volledige opmaak aangepast
 }
