@@ -49,7 +49,8 @@
 							<input type="hidden" name="id" value="<?php echo $todoId; ?>">
 							<input type="checkbox" name="done" value="1"<?php if ($todo['done']==true) echo " checked"; ?>>
 							<input type="text" name="txt" value="<?php echo htmlspecialchars($todo['txt']); ?>">
-							<input type="submit" name="action" value="Bewerken"><input type="submit" name="action" value="Verwijderen">
+							<input type="submit" name="action" value="Aanpassen">
+							<input type="submit" name="action" value="Verwijderen">
 						</form></div>
 					<?php
 						}
